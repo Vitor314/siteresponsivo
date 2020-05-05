@@ -1,0 +1,64 @@
+/* Formatação geral*/
+body {
+font-family: "Lobster", "IM+Fell+Double+Pica+SC", "Roboto+Slab";
+
+}
+
+h1, h2, h3 {
+
+	margin: 0
+	font-family: Lobster, Cookie;
+font-weight: 700;
+}
+
+p{
+	font-family: "Lobster", "Roboto+Slab", "IM+Fell+Double+Pica+SC";
+}
+ /* Cabeçario ou barra de navegação */
+.logo img{
+ border-radius: 50%;
+
+}
+
+nav{
+
+display: flex; 
+flex-direction: column;
+align-items: center;
+background-color: LightGreen;
+padding: 30px;
+}
+
+nav > a{
+text-decoration: none;
+color: #000000
+font-weight: 700;
+font-size: 28px;
+font-family: Lobster;
+
+
+
+}
+nav ul{
+	list-style: none;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+
+}
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2% 
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0,
+	width: 100%;
+	text-decoration: none;
+	color: #000000;
+}
